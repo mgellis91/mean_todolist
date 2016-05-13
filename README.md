@@ -3,23 +3,23 @@
 todolist application created using the [M.E.A.N](https://en.wikipedia.org/wiki/MEAN_(software_bundle)) stack
 
 # Installation
-[Mongodb](https://www.mongodb.com/) is required in order for the application to store the entries in the todo list
+download or clone the repo
+```sh
+$ git clone https://github.com/mgellis91/mean_todolist/
+```
+Install Dependencies
+````sh
+$ cd mean_todolist
+$ npm install
+````
+# Running the app
+[Mongodb](https://www.mongodb.com/) is required in order for the application to store the entries in the todo list. For information on installing and running Mongodb on other platforms vist the [Mongodb docs](https://docs.mongodb.com/manual/installation/)
 
-start mongodb (using OSX)
+start mongodb in seperate terminal instance (using OSX)
 ```sh
 $ mongod
 ```
-for information on installing and running Mongodb on other platforms vist the [Mongodb docs](https://docs.mongodb.com/manual/installation/)
-
-
-download or clone the repo then install the dependencies and run the main app.js file
+Inside the root of mean_todolist directory run
 ```sh
-$ git clone https://github.com/mgellis91/mean_todolist/
-$ cd mean_todolist
-$ npm install
 $ node src/app.js
 ```
-
-License
-----
-MIT License (MIT)
